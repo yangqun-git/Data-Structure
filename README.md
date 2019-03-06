@@ -2,4 +2,6 @@
 Data structure study notes
 
 代码阅读顺序:
- package : com.note.array
+ package : 
+          com.note.array
+          com.note.stack
