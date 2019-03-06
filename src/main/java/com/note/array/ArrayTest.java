@@ -14,7 +14,7 @@ public class ArrayTest {
 
     @Before
     public void init(){
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 12; i++) {
             arr.addLast(i);
         }
     }

@@ -71,6 +71,16 @@ public class Array<E> {
         return data[index];
     }
 
+    // 获取数组末元素
+    public E getLast(){
+        return get(size - 1);
+    }
+
+    // 获取数组首元素
+    public E getFirst(){
+        return get(0);
+    }
+
     // 将指定索引元素替换成e, 返回被覆盖的元素
     public E set(int index, E e){
         if (index < 0 || index >= size){
@@ -113,7 +123,7 @@ public class Array<E> {
         size --;
         // 释放引用
         data[size] = null;
-        if (size < data.length / 2){
+        if (size < data.length / 4){
             resize(data.length / 2);
         }
         return ret;
