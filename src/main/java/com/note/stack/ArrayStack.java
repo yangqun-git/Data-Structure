@@ -3,6 +3,7 @@ package com.note.stack;
 import com.note.array.Array;
 
 /**
+ * 直接用我们的{@link com.note.array.Array}实现
  * @Author 杨群
  * @Date 2019/3/6 21:59
  */

@@ -1,6 +1,7 @@
 package com.note.queue;
 
 /**
+ * 相较于{@link ArrayQueue} ,LoopQueue的出栈操作时间复杂度是O(1)
  * @Author 杨群
  * @Date 2019/3/7 16:37
  */

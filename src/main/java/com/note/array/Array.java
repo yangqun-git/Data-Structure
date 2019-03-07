@@ -1,6 +1,7 @@
 package com.note.array;
 
 /**
+ * Java原有的数组不支持扩容,此为扩展.(学习用,没啥实际作用)
  * @Author 杨群
  * @Date 2019/3/5 20:22
  */

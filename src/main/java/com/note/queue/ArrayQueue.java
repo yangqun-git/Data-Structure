@@ -3,6 +3,8 @@ package com.note.queue;
 import com.note.array.Array;
 
 /**
+ * 用{@link com.note.array.Array}实现栈结构
+ * 缺点: 出栈操作时间复杂度为O(n),因为涉及到了元素前移操作
  * @Author 杨群
  * @Date 2019/3/7 13:15
  */
@@ -59,6 +61,7 @@ public class ArrayQueue<E> implements Queue<E> {
                 sb.append(", ");
             }
         }
+
         sb.append("]");
         return sb.toString();
     }
