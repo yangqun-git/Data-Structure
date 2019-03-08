@@ -5,4 +5,5 @@ Data structure study notes
 <br>
           com.note.array<br>
           com.note.stack<br>
-          com.note.<br>
+          com.note.queue<br>
+          com.note.linkedlist<br>
