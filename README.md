@@ -7,3 +7,4 @@ Data structure study notes
           com.note.stack<br>
           com.note.queue<br>
           com.note.linkedlist<br>
+          com.note.bst<br>
