@@ -13,14 +13,17 @@ public class LinkedListTest {
             System.out.println(linkedList);
         }
 
-        linkedList.add(2, 666);
-        System.out.println(linkedList);
+//        linkedList.add(2, 666);
+//        System.out.println(linkedList);
+//
+//        linkedList.remove(2);
+//        System.out.println(linkedList);
+//        linkedList.removeFirst();
+//        System.out.println(linkedList);
+//        linkedList.removeLast();
+//        System.out.println(linkedList);
 
-        linkedList.remove(2);
-        System.out.println(linkedList);
-        linkedList.removeFirst();
-        System.out.println(linkedList);
-        linkedList.removeLast();
+        linkedList.removeElement(2);
         System.out.println(linkedList);
     }
 }
