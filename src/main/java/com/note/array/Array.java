@@ -17,6 +17,14 @@ public class Array<E> {
         size = 0;
     }
 
+    public Array(E[] arr){
+        data = (E[]) new Object[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            data[i] = arr[i];
+        }
+        size = arr.length;
+    }
+
     // 无参构造器,默认容量为10
     public Array(){
         this(10);
@@ -146,6 +154,12 @@ public class Array<E> {
         if (index != -1){
             remove(index);
         }
+    }
+
+    public void swap(int j, int k){
+        E temp = data[k];
+        data[k] = data[j];
+        data[j] = temp;
     }
 
     @Override

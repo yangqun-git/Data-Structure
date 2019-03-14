@@ -8,3 +8,6 @@ Data structure study notes
           com.note.queue<br>
           com.note.linkedlist<br>
           com.note.bst<br>
+          com.note.set<br>
+          com.note.map<br>
+          com.note.heap<br>
