@@ -1,4 +1,4 @@
-package com.note.bst;
+package com.note.tree;
 
 import org.junit.Test;
 
@@ -34,29 +34,29 @@ public class BinarySearchTreeTest {
 
         System.out.println(bst);
 
-//        bst.preOrder();
+//        tree.preOrder();
 //
 //        System.out.println();
 //
-//        bst.preOrderNF();
-//
-//        System.out.println();
-//
-//
-//        bst.inOrder();
+//        tree.preOrderNF();
 //
 //        System.out.println();
 //
 //
-//        bst.postOrder();
+//        tree.inOrder();
 //
 //        System.out.println();
 //
 //
-//        bst.leavelOrder();
+//        tree.postOrder();
+//
+//        System.out.println();
+//
+//
+//        tree.leavelOrder();
 
 
-//        System.out.println(bst);
+//        System.out.println(tree);
     }
 
     @Test

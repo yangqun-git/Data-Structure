@@ -1,4 +1,4 @@
-package com.note.bst;
+package com.note.tree;
 
 import java.util.LinkedList;
 import java.util.Stack;

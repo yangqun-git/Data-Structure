@@ -1,6 +1,6 @@
 package com.note.set;
 
-import com.note.bst.BinarySearchTree;
+import com.note.tree.BinarySearchTree;
 
 /**
  * @Author 杨群
