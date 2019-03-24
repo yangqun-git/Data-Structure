@@ -11,3 +11,8 @@ Data structure study notes
           com.note.set<br>
           com.note.map<br>
           com.note.heap<br>
+          com.note.trie<br>
+          com.note.unionfind<br>
+          com.note.avl<br>
+          com.note.hashtable<br>
+          
